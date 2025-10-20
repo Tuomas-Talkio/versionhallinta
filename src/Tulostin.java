@@ -14,8 +14,16 @@ public class Tulostin {
         int luku1 = 3;
         int luku2 = 7;
 
+        //tulostetaan muuttujien arvo
         System.out.println("Luku1-muuttujan arvo on " + luku1 + ".");
 
         System.out.println("Luku2-muuttujan arvo on " + luku2 + ".");
+
+        //Luodaan tulo muuttuja
+        int tulo = 0;
+        tulo = luku1 * luku2;
+
+        //tulostetaan luku muuttujat ja tulo muuttuja
+        System.out.println(luku1 + " * " + luku2 + "=" + tulo);
     }
 }
